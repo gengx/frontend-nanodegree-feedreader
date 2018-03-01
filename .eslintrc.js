@@ -1,13 +1,13 @@
-{
+module.exports = {
     "env": {
         "browser": true,
-        "es6": false
+        "es6": true
     },
     "extends": "eslint:recommended",
     "rules": {
         "indent": [
             "error",
-            "4"
+            4
         ],
         "linebreak-style": [
             "error",
@@ -22,4 +22,4 @@
             "always"
         ]
     }
-}
+};
